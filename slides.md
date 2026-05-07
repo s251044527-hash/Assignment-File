@@ -377,3 +377,21 @@ This scatter plot visualizes the relationship between students' weight and heigh
 :::
 ::::
 
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Student Height Distribution by Sex
+This box plot visualizes the distribution of student heights, grouped by sex. It helps to observe the median, quartiles, and potential outliers for height within each gender.
+
+```{.r .numberLines code_hightlight="1"}
+<!-- include: media/plots/height_sex_boxplot.md -->
+```
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/height_sex_boxplot.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
