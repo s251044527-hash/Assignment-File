@@ -359,3 +359,21 @@ It helps us understand the spread and central tendency of the scores.
 :::
 ::::
 
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Student Weight vs. Height
+This scatter plot visualizes the relationship between students' weight and height, with points colored by sex to show potential distinctions.
+
+```{.r .numberLines code_hightlight="1"}
+<!-- include: media/plots/weight_height_scatter.md -->
+```
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/weight_height_scatter.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
