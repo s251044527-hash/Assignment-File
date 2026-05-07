@@ -303,3 +303,59 @@ This bar chart displays the Math score for each student, allowing for easy compa
 :::
 ::::
 
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Math Scores by Student Name
+This bar chart displays the Math score for each student, allowing for easy comparison of individual performance.
+
+```{.r .numberLines code_hightlight="1"}
+<!-- include: media/plots/math_scores_by_name_bar_chart.md -->
+```
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/math_scores_by_name_bar_chart.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Math Scores Bar Chart
+This bar chart visualizes the distribution of Math scores by showing the frequency of each unique score.
+
+```{.r .numberLines code_hightlight="1"}
+<!-- include: media/plots/math_scores_bar_chart.md -->
+```
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/math_scores_bar_chart.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Math Scores Distribution
+Here's a histogram showing the distribution of Math scores from the dataset.
+
+It helps us understand the spread and central tendency of the scores.
+
+```{.r .numberLines code_hightlight="1"}
+<!-- include: media/plots/math_scores_histogram.md -->
+```
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/math_scores_histogram.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
