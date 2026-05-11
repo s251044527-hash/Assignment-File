@@ -395,3 +395,71 @@ This box plot visualizes the distribution of student heights, grouped by sex. It
 :::
 ::::
 
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Age Distribution
+This histogram shows the age spread of students within the dataset.
+
+```{.r .numberLines code_hightlight="1"}
+<!-- include: media/plots/age_distribution_histogram.md -->
+```
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/age_distribution_histogram.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Math Performance by Sex
+Comparing the average Math scores between male and female students.
+
+```{.r .numberLines code_hightlight="1"}
+<!-- include: media/plots/avg_math_by_sex.md -->
+```
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/avg_math_by_sex.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Weight Distribution
+Visualizing the weight range and median for students grouped by sex.
+
+```{.r .numberLines code_hightlight="1"}
+<!-- include: media/plots/weight_by_sex_boxplot.md -->
+```
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/weight_by_sex_boxplot.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
+
+---
+
+:::: {.columns}
+::: {.column width="50%"}
+### Height vs. Weight
+Exploring the relationship between student height and weight.
+
+```{.r .numberLines code_hightlight="1"}
+<!-- include: media/plots/height_vs_weight_scatter.md -->
+```
+:::
+
+::: {.column width="50%"}
+<iframe data-src='media/plots/height_vs_weight_scatter.html' width='100%' height='500px' style='border:none;'></iframe>
+:::
+::::
